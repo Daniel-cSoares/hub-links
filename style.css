@@ -37,14 +37,17 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 body *{
     font-family: 'Inter', sans-serif;
     font-size: var(--font-tamanho-padrao);
     color: var(--cor-padrao-font);
+    
 }
 #container{
-    width: 36rem;
+    width: 100%;
+    max-width: 36rem;
     margin: 4rem auto 0;
 }
 #profile{
@@ -150,5 +153,19 @@ ul li a:hover{
     }
     to{
         right: 0;
+    }
+}
+@media (max-width: 440px){
+    #container{
+        width: 100%;
+        max-width: 25rem;
+        margin: 2rem auto 0;
+    }
+    #social-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2.4rem 0 0 0;
     }
 }
