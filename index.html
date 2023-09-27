@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="ligh">
     <head>
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="index.js"></script>
@@ -14,12 +14,17 @@
         <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
         <title>Daniel Soares | Links</title>
     </head>
-
     <body>
         <div id="container">
             <div id="profile">
                 <img src="/assets/my_avatar.png" alt="Foto de perfil de Daniel Soares sério olhando para o lado com um boné rosa, fundo azulado">
                 <p>@daniel.c_s</p>
+            </div>
+            <div id="container-switch">
+                <div id="switch">
+                    <button onclick="toggleMode()"></button>
+                    <span></span>
+                </div>
             </div>
             <ul>
                 <li>
@@ -35,6 +40,15 @@
                     <a rel="nofollow" href="https://www.instagram.com/daniel.c_s/" target="_blank">Instagram</a>
                 </li>
             </ul>
+            <div id="social-links">
+                <ion-icon name="logo-vimeo"></ion-icon>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
         </div>
+        <script src="index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
