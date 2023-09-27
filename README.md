@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Um Hub de links é um agregador de links para usar como cartão de visitas online.
+Um Hub de links é um agregador de links para usar como cartão de visitas online. [Acesse aqui](https://daniel-csoares.github.io/hub-links)
 
 ## 🔖 Layout
 
